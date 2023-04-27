@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="tipos.css">
+
+<!-- COMIENZA NAV-->
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="Index.html#titulo">Bienvenida</a>
+        </li>
+        <li>
+            <a href="Index.html#mision">Uno nunca esta solo</a>
+        </li>
+        <li>
+            <a href="Index.html#informacion">sinopsis</a>
+        </li>
+    </ul>
+</nav>
+<!-- TERMINA NAV-->
+
+<!-- EMPIEZA INSTRUMENTOS-->
+<section id="informacion"class="informacion">
+    <div class="overlay">
+        <h2 class="project-section-header"><br>Audio Libro</h2>
+        <p>Una historia la cual puedes escuchar sin necesidad de leer, planteando con mucho detalle la manera en la cual Olga intenta escapar del manicomio las praderas, utilizando las diferentes voces que se encuentran en su interior<br></p>
+        <div class="clase">
+            <h3>Click para escuchar el audio</h3>
+            <img BORDER="3" width="500" height="500"src="Assets/audiolibro2.jfif" onclick="playsound('sonidoCuerda','Assets/sonido-de-violin.mp3')">
+            <audio><source  type="audio/mp3" id="sonidoCuerda" ></audio>
+           
+        </div>
+
+        <div class="clase">
+            <h3>Click para escuchar el audio</h3>
+            <img BORDER="3" width="500" height="500" src="Assets/audiolibro2.jfif" onclick="playsound('sonidoCuerda','Assets/sonido-de-viola.mp3')">
+            <audio><source  type="audio/mp3" id="sonidoCuerda" ></audio>
+        </div>
+
+       
+
+   
+    </div>
+</section>
+
+<!-- TERMINA INSTRUMENTOS-->
+<!-- COMIENZA FOOTER-->
+<footer>
+
+</footer>
+<!-- TERMINA FOOTER-->
+</html>
+<script src="scrypt.js"></script>
